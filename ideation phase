@@ -1,0 +1,21 @@
+def fitness_idea_generator():
+    print("AI Fitness Plan Generator")
+    print("-------------------------")
+
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+    goal = input("Enter your fitness goal: ")
+
+    print("\n--- Your Fitness Idea ---")
+    print("Name:", name)
+    print("Age:", age)
+    print("Fitness Goal:", goal)
+
+    print("\nIdeation Phase:")
+    print("1. Identify user fitness needs")
+    print("2. Understand user goals")
+    print("3. Design a personalized fitness plan")
+    print("4. Use AI to generate suggestions")
+
+
+fitness_idea_generator()
